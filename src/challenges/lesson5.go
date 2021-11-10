@@ -3,7 +3,6 @@ package lesson5
 import (
 	"fmt"
 	"math/rand"
-	"strconv"
 	"time"
 )
 
@@ -69,6 +68,6 @@ func Answer()  {
 			spaceLines[rand.Intn(spaceLinesLength)],
 			distance/(speed * 24 * 60 * 60),
 			tripType,
-			"$ " + strconv.Itoa(price))
+			fmt.Sprintf("$ %d", price))
 	}
 }
