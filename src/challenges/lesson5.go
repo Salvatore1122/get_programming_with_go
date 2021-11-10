@@ -40,9 +40,9 @@ import (
 // 高速な宇宙船ほど高額で、その範囲で百万ドル単位で36から50までとします。往復ならば倍額です。
 // ======================================================================================================
 
-var distance = 62100000
-var spaceLines = []string{"Virgin Galactic", "SpaceX", "Space Adventures"}
-var tripTypes = []string{"Round-trip", "One-way"}
+var distance = 62_100_000
+var spaceLines = [...]string{"Virgin Galactic", "SpaceX", "Space Adventures"}
+var tripTypes = [...]string{"Round-trip", "One-way"}
 var minSpeed = 16
 var maxSpeed = 30
 var minPrice = 36
@@ -57,9 +57,9 @@ func Answer()  {
 	spaceLinesLength := len(spaceLines)
 	tripTypesLength := len(tripTypes)
 	for count := 0; count < 10; count++ {
-		speed := rand.Intn(minSpeed) + (maxSpeed - minSpeed) + 1
+		speed := minSpeed + rand.Intn(maxSpeed - minSpeed) + 1
 		tripType := tripTypes[rand.Intn(tripTypesLength)]
-		price := minPrice + (speed - minPrice)
+		price := minPrice + (speed - minSpeed)
 		if tripType == "Round-trip" {
 			price *= 2
 		}
