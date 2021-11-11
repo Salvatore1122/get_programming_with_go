@@ -47,6 +47,8 @@ var maxSpeed = 30
 var minPrice = 36
 
 func Answer()  {
+	// TODO: 表示用データの配列を作成し、その後で表示処理を書く
+	// TODO: 往復と片道の時に値段にかける倍率をkey, valueの形で持つようにする
 	rand.Seed(time.Now().UnixNano())
 
 	outputFormat := "%-18v%-6v%-13v%-5v\n"
