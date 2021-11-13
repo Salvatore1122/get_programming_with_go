@@ -1,4 +1,4 @@
-package piggy
+package piggy_float
 
 import (
 	"fmt"
@@ -20,12 +20,10 @@ var maxSavingCost = 20.0
 
 func Answer() {
 	savingCostsLength := len(savingCosts)
-	for {
+	for bank <= maxSavingCost {
 		savingCost := savingCosts[rand.Intn(savingCostsLength)]
 		bank += savingCost
-		if bank > maxSavingCost {
-			break
-		}
+
 		fmt.Printf("貯金額：%.2f（%.2fセント貯金しました！）\n", bank, savingCost)
 	}
 

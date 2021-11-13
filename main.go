@@ -5,7 +5,9 @@ func main() {
 	//malacandra.Answer()     // Lesson2 練習問題
 	//guess.Answer()          // Lesson3 練習問題
 	//random_dates.Answer()   // Lesson4 練習問題
-	//piggy.Answer() // Lesson6 練習問題
+	//piggy_float.Answer()    // Lesson6 練習問題
+	//piggy_int.Answer()      // Lesson7 練習問題
+	//canis.Answer()          // Lesson8 練習問題
 
 	// チャレンジ
 	//lesson5.Answer()
