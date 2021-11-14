@@ -46,7 +46,7 @@ var minSpeed = 16
 var maxSpeed = 30
 var minPrice = 36
 
-func Answer()  {
+func Answer() {
 	// TODO: 表示用データの配列を作成し、その後で表示処理を書く
 	// TODO: 往復と片道の時に値段にかける倍率をkey, valueの形で持つようにする
 	rand.Seed(time.Now().UnixNano())
@@ -58,7 +58,7 @@ func Answer()  {
 	spaceLinesLength := len(spaceLines)
 	tripTypesLength := len(tripTypes)
 	for count := 0; count < 10; count++ {
-		speed := minSpeed + rand.Intn(maxSpeed - minSpeed) + 1
+		speed := minSpeed + rand.Intn(maxSpeed-minSpeed) + 1
 		tripType := tripTypes[rand.Intn(tripTypesLength)]
 		price := minPrice + (speed - minSpeed)
 		if tripType == "Round-trip" {
@@ -68,7 +68,7 @@ func Answer()  {
 		fmt.Printf(
 			outputFormat,
 			spaceLines[rand.Intn(spaceLinesLength)],
-			distance/(speed * 24 * 60 * 60),
+			distance/(speed*24*60*60),
 			tripType,
 			fmt.Sprintf("$ %d", price))
 	}

@@ -1,7 +1,5 @@
 package main
 
-import "get_programming_with_go/src/practices/input"
-
 func main() {
 	// 練習問題
 	//malacandra.Answer()     // Lesson2 練習問題
@@ -12,7 +10,7 @@ func main() {
 	//canis.Answer()          // Lesson8 練習問題
 	//caesar.Answer()         // Lesson9 練習問題-1
 	//international.Answer()  // Lesson9 練習問題-2
-	input.Answer()
+	//input.Answer()          // Lesson10 練習問題
 
 	// チャレンジ
 	//lesson5.Answer()
