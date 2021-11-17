@@ -14,4 +14,6 @@ func main() {
 
 	// チャレンジ
 	//lesson5.Answer()
+	//lesson11.DecipherAnswer()
+	//lesson11.CipherAnswer()
 }
