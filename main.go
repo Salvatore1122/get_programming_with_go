@@ -11,6 +11,7 @@ func main() {
 	//caesar.Answer()         // Lesson9 練習問題-1
 	//international.Answer()  // Lesson9 練習問題-2
 	//input.Answer()          // Lesson10 練習問題
+	//functions.Answer()      // Lesson12 練習問題
 
 	// チャレンジ
 	//lesson5.Answer()
