@@ -12,6 +12,8 @@ func main() {
 	//international.Answer()  // Lesson9 練習問題-2
 	//input.Answer()          // Lesson10 練習問題
 	//functions.Answer()      // Lesson12 練習問題
+	//method.Answer()         // Lesson13 練習問題
+	//calibrate.Answer()      // Lesson14 練習問題
 
 	// チャレンジ
 	//lesson5.Answer()
