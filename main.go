@@ -15,6 +15,7 @@ func main() {
 	//method.Answer()         // Lesson13 練習問題
 	//calibrate.Answer()      // Lesson14 練習問題
 	//chess.Answer()          // Lesson16 練習問題
+	//terraform.Answer()      // Lesson17 練習問題
 
 	// チャレンジ
 	//lesson5.Answer()
