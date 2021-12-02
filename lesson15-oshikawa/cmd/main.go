@@ -45,10 +45,3 @@ func main() {
     // 表2
     drawTable(GetFahrenheitCelsiusTable)
 }
-
-
-
-
-
-
-
