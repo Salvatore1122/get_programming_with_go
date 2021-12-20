@@ -17,6 +17,7 @@ func main() {
 	//chess.Answer()          // Lesson16 練習問題
 	//terraform.Answer()      // Lesson17 練習問題
 	//capacity.Answer(1000)   // Lesson18 練習問題
+	//words.Answer()          // Lesson19 練習問題
 
 	// チャレンジ
 	//lesson5.Answer()
