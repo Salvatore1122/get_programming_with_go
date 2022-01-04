@@ -1,5 +1,7 @@
 package main
 
+import "get_programming_with_go/src/challenges/lesson20"
+
 func main() {
 	// 練習問題
 	//malacandra.Answer()     // Lesson2 練習問題
@@ -23,4 +25,5 @@ func main() {
 	//lesson5.Answer()
 	//lesson11.DecipherAnswer()
 	//lesson11.CipherAnswer()
+	lesson20.Answer()
 }
